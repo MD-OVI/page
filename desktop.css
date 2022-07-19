@@ -1,0 +1,185 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+
+
+
+
+	/* header area */
+
+.logo{
+	padding: 0px;
+}
+
+.logo img{
+	margin: 0px;
+	border: none;
+}
+
+.name h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.menu{
+	display: flex;
+	flex-direction: row;
+	margin-top: 10px;
+}
+
+.menu a{
+	margin-right: 5px;
+	width: 100%;
+	transition: 0.3s;
+}
+
+
+
+
+
+	/* profile area */
+
+
+.profile_area{
+	padding: 200px 10px;
+}
+
+.profile_top img{
+	width: 200px;
+	height: 200px;
+}
+
+.profile_top{
+	right: 100px;
+}
+
+.profile_discription h1{
+    font-size: 30px;
+	transition: 2s;
+	width: 650px;
+	margin: 0 auto;
+}
+
+.profile_discription h1:hover{
+	transform: scale(1.5);
+	margin-bottom: 30px;
+}
+
+.profile_discription{
+	margin-top: 30px;
+}
+
+.profile_bottom img{
+	width: 200px;
+	height: 200px;
+}
+
+.profile_bottom{
+	left: 100px;
+}
+
+
+
+
+	/* about area */
+
+
+.about_me_img > img{
+	border: 2px solid white;
+	border-radius: 160px;
+	padding: 10px;
+}
+
+.education{
+    margin: 0px 20px;
+}
+
+.work.col-4{
+	width: 31.33%;
+	padding: 0px;
+}
+
+.education.col-4{
+	width: 31.33%;
+	padding: 0px;
+}
+
+.skills.col-4{
+	width: 31.33%;
+	padding: 0px;
+}
+
+
+
+
+
+	/* achievement area */
+
+
+
+.contact .btn{
+    margin-left: 75px;
+    margin-top: 10px;
+}
+
+.contact_links{
+	position: relative;
+}
+
+.media_button{
+	position: absolute;
+    left: 35%;
+    top: 50%;
+    width: 150px;
+    margin-top: 65px;
+}
+
+.media_button .btn{
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+
+
+
+
+.footer_area{
+	text-align: left;
+}
+
+
+
+.footer_area{
+	padding: 1% 7%;
+	background-color: black;
+
+}
+
+.footer_area .footer_menu a{
+    display: inline;
+	margin-right: 20px;
+}
+
+.footer_menu{
+	margin-top: 10px;
+}
+
+.footer_desc{
+	text-align: right;
+}
